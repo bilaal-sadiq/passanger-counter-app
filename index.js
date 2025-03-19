@@ -1,19 +1,25 @@
 // document.getElementById("count-el").innerText = 5
 
-let bonusPoints = 50
+// initialise the count as 0
+// listen for clicks on the increment button
+// increment the count variable when the button is clicked
+// change the count-el in the html to reflect the new count
 
-bonusPoints = bonusPoints + 100
+// function increment() {
+//     console.log("the button was clicked")
+// }
 
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints - 25 
-
-console.log(bonusPoints)
-
-bonusPoints = bonusPoints + 70
-
-console.log(bonusPoints)
 
 
  
+let lapsCompleted = 0
 
+function incrementLap() {
+    lapsCompleted = lapsCompleted + 1
+}
+
+incrementLap()
+incrementLap()
+incrementLap()
+
+console.log(lapsCompleted)
