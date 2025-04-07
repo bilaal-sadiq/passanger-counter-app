@@ -10,22 +10,36 @@
 // }
 
 
-let countEl = document.getElementById("count-el")
+// let countEl = document.getElementById("count-el")
 
-let count = 0 
+// let count = 0 
 
-function increment() {
-    count = count + 1
-    countEl.innerText = count
+// function increment() {
+//     count = count + 1
+//     countEl.innerText = count
     
+// }
+
+// function save() {
+//     console.log(count)
+// }
+
+// save()
+
+// let message = "You have three new notifications"
+
+// console.log(message)
+
+let welcomeEl = document.getElementById("welcome-el")
+
+let myName = "Bilaal"
+let greeting = "Welcome Back "
+
+
+
+function welcome() {
+    myGreeting = greeting + myName + " 👋🏻"
+    welcomeEl.innerText = myGreeting
 }
 
-function save() {
-    console.log(count)
-}
-
-save()
-
-let message = "You have three new notifications"
-
-console.log(message)
+welcome()
